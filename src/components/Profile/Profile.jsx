@@ -6,7 +6,7 @@ function Profile({ name, tag, location, image, stats }) {
       <div className={css.imageSection}>
         <img className={css.profileImg} src={image} alt={name} />
         <p className={css.title}>{name}</p>
-        <p className={css.text}>{'@' + tag}</p>
+        <p className={css.text}>{"@" + tag}</p>
         <p className={css.text}>{location}</p>
       </div>
 

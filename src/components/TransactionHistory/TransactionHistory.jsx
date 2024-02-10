@@ -1,4 +1,4 @@
-import css from './TransactionHistory.module.css';
+import css from "./TransactionHistory.module.css";
 
 function TransactionHistory({ items }) {
   return (
@@ -12,7 +12,7 @@ function TransactionHistory({ items }) {
       </thead>
 
       <tbody>
-        {items.map(item => (
+        {items.map((item) => (
           <tr className={css.row} key={item.id}>
             <td className={css.rowData}>{item.type}</td>
             <td className={css.rowData}>{item.amount}</td>
